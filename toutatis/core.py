@@ -144,6 +144,6 @@ def main():
                 print("No obfuscated phone found")
     print("-"*24)
     print("Profile Picture        : "+infos["hd_profile_pic_url_info"]["url"])
-    print("Public Phone number    : " + phonenr)
-    print("Public Phone number    : " + pn)
+    print("Public Phone number    : " + infos["phonenr"])
+    print("Public Phone numberer    : " + infos["pn"])
 
