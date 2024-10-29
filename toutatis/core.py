@@ -138,12 +138,9 @@ def main():
                 print("No obfuscated email found")
 
         if "obfuscated_phone"in other_infos["user"].keys():
-            if str(other_infos["user"]["obfuscated_phone"]):
-                print("Obfuscated phone       : "+str(other_infos["user"]["obfuscated_phone"]))
+            if str(other_infos["user"]["public_phone_number"]):
+                print("Obfuscated phone       : "+str(other_infos["user"]["public_phone_number"]))
             else:
                 print("No obfuscated phone found")
     print("-"*24)
     print("Profile Picture        : "+infos["hd_profile_pic_url_info"]["url"])
-    print("Public Phone number    : " + infos["phonenr"])
-    print("Public Phone numberer    : " + infos["pn"])
-
