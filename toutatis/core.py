@@ -139,7 +139,7 @@ def main():
 
         if "obfuscated_phone"in other_infos["user"].keys():
             if str(other_infos["user"]["public_phone_number"]):
-                print("Obfuscated phone       : "+str(other_infos["user"]["public_phone_number"]))
+                print("Obfuscated phone       : "+str(other_infos["user"]["phonenr"]))
             else:
                 print("No obfuscated phone found")
     print("-"*24)
